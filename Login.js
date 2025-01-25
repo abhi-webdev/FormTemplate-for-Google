@@ -6,6 +6,7 @@ function successful(event) {
     const pass = document.getElementById("password").value;
     if(user!=="" && pass!==""){
         alert("Login Successful!");
+        window.open(www.google.com);
         location =location['href'];
     }
     else{
